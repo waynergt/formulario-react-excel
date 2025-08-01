@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# Formulario React Excel
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Vercel](https://vercel.com/button)](https://formulario-react-excel.vercel.app/)
 
-## Available Scripts
+Demo en producción:  
+👉 [https://formulario-react-excel.vercel.app/](https://formulario-react-excel.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Descripción
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este proyecto es una aplicación web construida con **React** que permite a los usuarios llenar un formulario, gestionar datos y exportarlos a **Excel**. Incluye un apartado de "Acerca de" con un enlace directo al repositorio de GitHub.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Características
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Formulario interactivo para el registro de información.
+- Exportación de datos a archivos Excel.
+- Interfaz sencilla y responsiva.
+- Sección "Acerca de" con acceso directo al repositorio.
+- Desplegado automáticamente en [Vercel](https://vercel.com/).
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tecnologías utilizadas
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React](https://reactjs.org/) – Librería principal para la interfaz de usuario.
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Lenguaje de programación.
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5) y [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) – Maquetación y estilos.
+- [xlsx](https://www.npmjs.com/package/xlsx) – Para exportar datos a Excel. (agrega esta línea si usaste alguna librería para exportar)
+- [Vercel](https://vercel.com/) – Hosting y despliegue continuo.
+- [GitHub](https://github.com/) – Control de versiones y repositorio.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Instalación y uso
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/waynergt/formulario-react-excel.git
+   cd tu-repo
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Instala las dependencias:**
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Inicia el proyecto en modo desarrollo:**
+   ```bash
+   npm start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Abre la aplicación:**
+   Visita [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Scripts útiles
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- `npm start` – Ejecuta la app en modo desarrollo.
+- `npm run build` – Compila la app para producción.
+- `npm run export` 
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Estructura del Proyecto
 
-### Analyzing the Bundle Size
+```
+/public
+/src
+  |-- App.js
+  |-- Formulario.jsx
+  |-- AcercaDe.jsx
+  |-- ...otros archivos
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## Despliegue
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+La aplicación se despliega automáticamente en Vercel con cada push al repositorio principal.
 
-### Advanced Configuration
+Puedes ver la versión en vivo aquí:  
+🔗 [https://formulario-react-excel.vercel.app/](https://formulario-react-excel.vercel.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Acerca de
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Esta aplicación fue creada por [Tu Nombre o Equipo].  
+Puedes encontrar el código fuente y contribuir en:
 
-### `npm run build` fails to minify
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/waynergt/tu-repo)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+---
+
+## Contacto
+
+¿Tienes dudas o sugerencias?  
+Puedes abrir un [issue](https://github.com/waynergt/formulario-react-excel/issues) o contactar a waynerlopezgt@gmail.com.
