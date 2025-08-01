@@ -100,4 +100,4 @@ Puedes encontrar el código fuente y contribuir en:
 ## Contacto
 
 ¿Tienes dudas o sugerencias?  
-Puedes abrir un [issue](https://github.com/waynergt/formulario-react-excel/issues) o contactar a waynerlopezgt@gmail.com.
+Puedes contactar a waynerlopezgt@gmail.com.
