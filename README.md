@@ -89,10 +89,10 @@ Puedes ver la versión en vivo aquí:
 
 ## Acerca de
 
-Esta aplicación fue creada por [Tu Nombre o Equipo].  
+Esta aplicación fue creada por Wayner López.  
 Puedes encontrar el código fuente y contribuir en:
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/waynergt/tu-repo)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-black?logo=github)](https://github.com/waynergt/formulario-react-excel)
 
 
 ---
